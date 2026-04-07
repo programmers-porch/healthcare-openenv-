@@ -4,7 +4,7 @@ import json
 from openai import OpenAI
 from my_env_v4 import MyEnvV4Env, MyEnvV4Action
 
-API_KEY = os.getenv("HF_TOKEN")
+API_KEY = os.getenv("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")
 API_BASE_URL = os.getenv("API_BASE_URL", "https://router.huggingface.co/v1")
 MODEL_NAME = os.getenv("MODEL_NAME", "Qwen/Qwen2.5-7B-Instruct")
 
