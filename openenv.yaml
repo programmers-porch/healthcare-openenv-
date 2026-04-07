@@ -1,0 +1,13 @@
+name: healthcare-triage-env
+description: Healthcare triage environment
+version: 3.0
+
+entry_point: my_env_v4:MyEnvV4Env
+
+tasks:
+  - name: urgency
+    difficulty: easy
+  - name: routing
+    difficulty: medium
+  - name: full_triage
+    difficulty: hard
